@@ -1,0 +1,14 @@
+{
+  "name": "bing-wallpaper",
+  "version": "1.0.0",
+  "description": "use bing's wallpaper as login/desktop background.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ashutoshdhundhara@yahoo.com",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.5.4"
+  }
+}
