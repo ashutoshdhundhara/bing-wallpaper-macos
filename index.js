@@ -59,7 +59,7 @@ const adapt_image_meta = function (bing_json) {
     const todays_image = bing_json.images[0];
     const fhd_url = get_fhd_image_url(todays_image);
 
-    const file_name = qs.parse(url.parse(fhd_url).query).id;
+    const file_name = qs.parse(url.parse(fhd_url).query).id.replace("OHR.", "");
 
     const image = {
         file_name: file_name,
